@@ -2,7 +2,7 @@
 
 **Status:** Accepted — 2026-08-27
 
-- Apache License 2.0 and a separate repository from ReadyRay.
+- Apache License 2.0 and a separate repository from ArchGauge.
 - Fictional application with no invented customer outcomes.
 - DDD modular monolith and clean/hexagonal boundaries.
 - Bun commands with Node.js 24 LTS production runtime.

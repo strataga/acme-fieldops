@@ -7,6 +7,6 @@
 5. Signed, idempotent ERP outbox/webhook delivery
 6. Clean end-to-end application, observability, recovery, and Railway proof
 7. Pinned flawed, remediated, and insufficient-evidence benchmark revisions
-8. Signed prerelease with reproducible install and ReadyRay evaluation evidence
+8. Signed prerelease with reproducible install and ArchGauge evaluation evidence
 
 Dates are not promises. Each item remains pending until its exact checks pass.

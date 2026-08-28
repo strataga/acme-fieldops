@@ -4,7 +4,7 @@ Acme FieldOps is in its foundation stage. Discuss material product or architectu
 
 1. Create a focused branch from current `main`.
 2. Keep commits signed and add a DCO sign-off: `git commit -s`.
-3. Run `bun run check`.
+3. Run `git diff --check`, `actionlint`, and `shellcheck .githooks/pre-commit`.
 4. Update tests, ADRs, API docs, Postman collection, changelog, release notes, and runbooks when the change affects them.
 5. Open a pull request using the template. Resolve all conversations and required checks before squash merge.
 

@@ -8,6 +8,6 @@ Global instructions apply. Acme is fictional, but clean behavior must be product
 - AI output is cited and human-approved before operational state changes.
 - ERP webhooks require raw-body signatures, event ledger, idempotency, retries, and replay/out-of-order tests.
 - Expected benchmark findings never enter submitted evidence. Vulnerable scenarios are never publicly deployed.
-- After the seed, every commit is signed and merged through a pull request. Run `bun run check`, which currently delegates to `bun scripts/check-repository.ts`; code phases require at least 80% coverage.
+- After the seed, every change to protected `main` arrives through a pull request, and every commit merged into `main` is signed. Run `bun run check`, which currently delegates to `bun scripts/check-repository.ts`; code phases require at least 80% coverage.
 
 Remote, deployment, credentials, provider, billing, and cloud actions require explicit approval.

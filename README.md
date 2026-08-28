@@ -25,6 +25,6 @@ bun run check
 git config core.hooksPath .githooks
 ```
 
-The seed commit is the only direct-to-`main` exception. Every later change uses a signed branch commit and pull request. Releases use Semantic Versioning and human-readable release notes. No remote or deployment exists yet.
+The seed commit is the only direct-to-`main` exception. Every later change uses a signed branch commit and pull request. Releases use Semantic Versioning and human-readable release notes. The public source is [github.com/strataga/acme-fieldops](https://github.com/strataga/acme-fieldops); no deployment exists yet.
 
 Apache License 2.0. See [LICENSE](LICENSE).

@@ -3,6 +3,8 @@
 ## Evidence
 
 - [ ] `git diff --check`
+- [ ] `git diff --cached --check`
+- [ ] `git diff --check origin/main...HEAD`
 - [ ] `actionlint`
 - [ ] `shellcheck .githooks/pre-commit`
 - [ ] Tests/docs/contracts updated for changed behavior

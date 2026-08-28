@@ -23,6 +23,8 @@ See [the PRD](docs/PRD.md), [architecture](docs/architecture/overview.md), and [
 bun install --frozen-lockfile
 git config core.hooksPath .githooks
 git diff --check
+git diff --cached --check
+git diff --check origin/main...HEAD
 actionlint
 shellcheck .githooks/pre-commit
 ```

@@ -9,6 +9,6 @@ Global instructions apply. Acme is fictional, but clean behavior must be product
 - ERP webhooks require raw-body signatures, event ledger, idempotency, retries, and replay/out-of-order tests.
 - Expected benchmark findings never enter submitted evidence. Vulnerable scenarios are never publicly deployed.
 - After the seed, every change to protected `main` arrives through a pull request, and every commit merged into `main` is signed. The required checks, direct-push restrictions, and no-routine-bypass policy are recorded in `docs/governance/github-ruleset.md`.
-- Before opening a pull request, run `git diff --check`, `git diff --cached --check`, `git diff --check origin/main...HEAD`, `actionlint`, and `shellcheck .githooks/pre-commit`. Code phases also require the project test suite and at least 80% measurable coverage.
+- Before opening a pull request, check unstaged and staged changes with `git diff --check` and `git diff --cached --check`; check committed branch changes with `git diff --check origin/main...HEAD`; then run `actionlint` and `shellcheck .githooks/pre-commit`. Code phases also require the project test suite and at least 80% measurable coverage.
 
 Remote, deployment, credentials, provider, billing, and cloud actions require explicit approval.

@@ -10,7 +10,7 @@ Target: `refs/heads/main`
 
 - Require pull requests after the seed commit; zero approvals for the solo-maintainer stage, but all conversations must resolve.
 - Require signed commits, linear history, and current branches.
-- Require the exact status-check contexts `check`, `analyze`, `review`, and `gitleaks`. These are provided by the `CI`, `CodeQL`, `Dependency Review`, and `Security` workflows respectively.
+- Require the exact status-check contexts `check`, `analyze`, `review`, and `gitleaks`. These are provided by the `CI`, `CodeQL`, `Dependency Review`, and `Security` workflows respectively, verified on the exact pull-request head before merge and again on the resulting `main` commit.
 - Block force pushes and deletions. No routine bypass actor is configured.
 
 ## Release tags
